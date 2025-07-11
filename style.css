@@ -18,10 +18,35 @@ main {
 }
 
 
-.aside{
-  
+.aside a{
+  position: absolute;
+  left: -90px;
+  transition: 0.2s;
+  padding: 15px;
+  width: 110px;
+  text-decorention: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0 15px  15px 0;
 }
 
+.aside a: hover {
+  left: 0;
+}
+
+
+#Informaçoês{
+  top: 20px;
+  background-color: #800;
+  }
+#Sobre{
+  top: 20px;
+  background-color: #080;
+  }
+#Contatos{
+  top: 20px;
+  background-color: #008;
+  }
   
 .produtos {
   display: flex;
