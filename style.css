@@ -18,41 +18,58 @@ main {
 }
 
 
-.aside {
+.faixa-rosa {
+  background-color: #ff4080;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 40px 40px 40px 100px;
   position: relative;
-  height: 200px; 
+  overflow: hidden;
 }
 
-.aside a {
+.menu-lateral {
   position: absolute;
-  left: -90px;
-  transition: 0.2s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
-  border-radius: 0 15px 15px 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.aside a:hover {
+.menu-lateral a {
+  position: relative;
+  left: -80px;
+  padding: 10px 20px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  transition: left 0.3s ease;
+}
+
+.menu-lateral a:hover {
   left: 0;
 }
 
-#Introdução {
-  top: 20px;
+
+  #Introducao {
   background-color: #800;
 }
-
-#Sobre {
-  top: 80px;
+  #Sobre {
   background-color: #080;
 }
-
-#Contato {
-  top: 140px;
+  #Contato {
   background-color: #008;
 }
+
+.conteudo-faixa {
+  flex: 1;
+  text-align: center;
+}
+
 
   
 .produtos {
