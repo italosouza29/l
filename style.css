@@ -20,18 +20,18 @@ main {
 
 .aside a{
   position: absolute;
-  left: -90px;
+  left: -50px;
   transition: 0.2s;
   padding: 15px;
-  width: 110px;
+  width: 100px;
   text-decorention: none;
   font-size: 20px;
   color: #fff;
   border-radius: 0 15px  15px 0;
 }
 
-.aside a: hover {
-  left: 0;
+.aside a:hover{
+  left:0;
 }
 
 
