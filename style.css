@@ -17,6 +17,12 @@ main {
   padding: 20px;
 }
 
+
+.aside{
+  
+}
+
+  
 .produtos {
   display: flex;
   flex-wrap: wrap;
